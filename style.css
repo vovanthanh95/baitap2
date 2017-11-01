@@ -1,0 +1,95 @@
+.super_deal{
+    position: relative;
+}
+.super_deal .logo{
+    background: url('logo_deal.jpg') no-repeat;
+    width: 353px;
+    height: 102px;
+    position: absolute;
+    top: -51px;
+    z-index: 2;
+}
+.super_deal .line hr{
+    color: green;
+    margin-top: 60px;
+}
+.super_deal .link_page{
+    float: right;
+    overflow: auto;
+}
+.super_deal .link_page a{
+    color: black;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.super_deal .link_page a:hover{
+    color: rgb(17, 180, 245);
+}
+
+.item_list .table_item{
+    width: 100%;
+    margin-top: 60px;
+    border-spacing: 10px;
+    
+}
+img{
+    padding: 0px;
+}
+
+td{
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(209, 207, 207);
+    
+}
+.table_item tr td a{
+    text-decoration: none;
+    color: black;
+    
+}
+.table_item tr td a:hover{
+    text-decoration: none;
+    color: rgb(17, 180, 245);
+    
+}
+.table_item tr td a p{
+    text-align: left;
+    margin-left: 10px;
+    
+}
+.table_price{
+    border: none;
+    width: 100%;
+}
+.table_price tr td{
+    border: none;
+}
+
+.sale{
+    text-align: left; 
+    font-size: 25px;
+    margin-left: 10px; 
+    color: red;
+    font-weight: bold; 
+}
+.price{
+    text-align: right;
+}
+.price .price_old{
+    text-decoration: line-through;
+}
+.price .price_new{
+    font-weight: bold;
+    font-size: 16px;
+}
+.currency{
+    text-align: right;
+    margin-right: 35px;
+}
+.sale .icon{
+    background: url('arrow_down.jpg') no-repeat;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+}
