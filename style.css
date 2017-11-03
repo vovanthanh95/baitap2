@@ -1,0 +1,103 @@
+.wrap {
+    margin-left: 4%;
+    margin-right: 4%;   
+}
+.nav-logo {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.nav {
+    background: #393536;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav .nav-menu ul {
+    display: flex;
+    list-style: none;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+.nav .nav-menu ul li {
+    padding-top:20px;
+    border-right: 1px solid rgb(0, 0, 0) ;
+}
+.nav .nav-menu ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    font-weight: 38px;
+}
+.nav .nav-menu {
+    align-content: center;
+}
+.nav-end {
+    display: flex;
+}
+.donate {
+    background: url('donate.png') no-repeat;
+    width: 148px;
+    height: 90px;
+    margin-top: -9px;
+    margin-right: 15px;
+    padding-top: 45%;
+    text-align: center;
+}
+.join {
+    background: url('volunteer.png') no-repeat;
+    width: 148px;
+    height: 90px;
+    margin-top: -9px;
+    margin-right: -3px;
+    padding-top: 45%;
+}
+.donate div {
+    padding-left: 23%;
+}
+.join div {
+    padding-left: 42%;
+}
+.nav-end a {
+    text-decoration: none; 
+    color: white;
+    font-size: 18px; 
+}
+.nav .nav-menu li:hover {
+    background: black;
+}
+.sub-menu li {
+    display: none;
+}
+.nav .nav-menu ul li ul li {
+    background: #000000;
+    border-bottom: 1px solid #393536 ;
+    width: 260px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.nav .nav-menu ul li:hover ul li {
+    display: block;
+}
+.nav .nav-menu ul li ul li:hover a {
+    color: red;
+}
+.nav .nav-menu ul li ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-top: 27px;
+}
+.nav .nav-menu ul li ul li a {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.header {
+    width: 100%;
+    height: 2000px;
+}
